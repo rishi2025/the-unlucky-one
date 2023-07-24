@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, #fb7e7e, #530c4f, #d51fc0);
+    /* background-repeat: no-repeat; */
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.activePlayer {
+    opacity: 1.0;
+}
+
+.activeCurrBox {
+    color: #ffffff;
+}
+
+.currBox1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #720b6d;
+    width: 45%;
+    border-radius: 12%;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  0 0 10px #ffffff;
+    margin-top: 40%;
+    margin-left: 30%;
+}
+
+.currBox2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #720b6d;
+    width: 45%;
+    border-radius: 12%;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  0 0 10px #ffffff;
+    margin-top: 40%;
+    margin-left: 30%;
+}
+
+.currText1 {
+    font-family: cursive;
+    font-size: 50%;
+}
+
+.currText2 {
+    font-family: cursive;
+    font-size: 50%;
+}
+
+.dice {
+    position: absolute;
+    top: 35%;
+    left: 46.25%;
+    width: 7.5%;
+    height: 15%;
+    background-color: #ffffff;
+    border: 5px solid #333;
+    z-index: 3;
+    box-shadow:  0 0 50px #0b0a0a;
+}
+
+.hidden {
+    display: none;
+}
+
+.hold {
+    position: absolute;
+    left: 45%;
+    top: 70%;
+    width: 10%;
+    height: 5%;
+    border: #333;
+    border-radius: 15px;
+    font-weight: 600;
+    box-shadow:  0 0 25px #010101;
+    z-index: 3;
+}
+
+.hold:hover {
+    box-shadow:  0 0 0;
+    cursor: pointer;
+    position: absolute;
+    left: 45%;
+    top: 71%;
+}
+
+.inactivePlayer {
+    opacity: 0.4;
+}
+
+.inactiveCurrBox {
+    color: #ff0000;
+}
+
+.newGame {
+    position: absolute;
+    left: 45%;
+    top: 26%;
+    width: 10%;
+    height: 5%;
+    border: #333;
+    border-radius: 15px;
+    font-weight: 600;
+    box-shadow:  0 0 25px #010101;
+    z-index: 3;
+}
+
+.newGame:hover {
+    box-shadow:  0 0 0;
+    cursor: pointer;
+    position: absolute;
+    left: 45%;
+    top: 27%;
+}
+
+.roll {
+    position: absolute;
+    left: 45%;
+    top: 60%;
+    width: 10%;
+    height: 5%;
+    border: #333;
+    border-radius: 15px;
+    font-weight: 600;
+    box-shadow:  0 0 25px #010101;
+    z-index: 3;
+}
+
+.roll:hover {
+    box-shadow:  0 0 0;
+    cursor: pointer;
+    position: absolute;
+    left: 45%;
+    top: 61%;
+}
+
+.player1 {
+    background: linear-gradient(to right, #ce3838, #b4091d, #ce3838);
+    /* opacity: 0.4; */
+    width: 50%;
+    height: 100%;
+    font-family: cursive;
+    font-size: 250%;
+    font-weight: 600;
+    color: #333;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5% 0% 0% 5%;
+}
+
+.player2 {
+    background: linear-gradient(to right, #ce3838, #b4091d, #ce3838);
+    /* opacity: 0.4; */
+    width: 50%;
+    height: 100%;
+    font-family: cursive;
+    font-size: 250%;
+    font-weight: 600;
+    color: #333;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0% 5% 5% 0% ;
+}
+
+.score1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 800;
+    color: #fff;
+}
+
+.score2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 800;
+    color: #fff;
+}
+
+.wholeBoard {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    background: inherit;
+    border-radius: 5%;
+    box-shadow:  0 0 25px #e33838;
+}
