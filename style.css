@@ -208,3 +208,13 @@ html {
     border-radius: 5%;
     box-shadow:  0 0 25px #e33838;
 }
+
+.winnerPlayer {
+    background: #8907bc;
+    color: #fff;
+}
+
+.loserPlayer {
+    background: #9988a0;
+    color: #fff;
+}
