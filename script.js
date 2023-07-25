@@ -82,7 +82,7 @@ document.querySelector('.hold').addEventListener('click', function () {
         score2.textContent = score[1];
 
         // If user reaches 100
-        if (score[currPlayer] >= 10) {
+        if (score[currPlayer] >= 100) {
             playing = false;
             document.querySelector(`.player${currPlayer + 1}`).classList.remove('activePlayer');
             document.querySelector(`.player${currPlayer + 1}`).classList.add('winnerPlayer');
