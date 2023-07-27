@@ -25,6 +25,22 @@ html {
     color: #ffffff;
 }
 
+.close {
+    font-size: 300%;
+    position: absolute;
+    top: 3%;
+    left: 94%;
+    cursor: pointer;
+}
+
+.close:hover {
+    font-size: 200%;
+    position: absolute;
+    top: 5%;
+    left: 94.5%;
+    color: #b4091d;
+}
+
 .currBox1 {
     display: flex;
     flex-direction: column;
@@ -98,12 +114,83 @@ html {
     top: 71%;
 }
 
+.howToPlay {
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    width: 60%;
+    height: 60%;
+    border: #333;
+    border-radius: 20px;
+    font-weight: 600;
+    box-shadow:  0 0 25px #010101;
+    z-index: 10;
+    background-color: #fff;
+    padding: 5% 5% 0 5%;
+}
+
+.htp {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    width: 10%;
+    height: 5%;
+    border: #333;
+    border-radius: 15px;
+    font-weight: 600;
+    box-shadow:  0 0 25px #010101;
+    z-index: 3;
+}
+
+.htp:hover {
+    box-shadow:  0 0 0;
+    cursor: pointer;
+    position: absolute;
+    left: 10%;
+    top: 11%;
+}
+
 .inactivePlayer {
     opacity: 0.4;
 }
 
 .inactiveCurrBox {
     color: #ff0000;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+}
+
+.okay {
+    position: absolute;
+    left: 45%;
+    top: 85%;
+    width: 10%;
+    height: 5%;
+    border: #333;
+    border-radius: 15px;
+    font-weight: 600;
+    box-shadow:  0 0 25px #010101;
+    z-index: 3;
+    background-color: rgb(64, 152, 253);
+}
+
+.okay:hover {
+    box-shadow:  0 0 0;
+    cursor: pointer;
+    position: absolute;
+    left: 45%;
+    top: 86%;
+    background-color: rgb(3, 100, 211);
+}
+
+.p {
+    font-family: sans-serif;
+    color: #c70606;
 }
 
 .newGame {

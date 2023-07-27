@@ -29,6 +29,31 @@
     <button class = "roll">ROLL DICE 🎲</button>
     <button class = "hold">HOLD 🌟</button>
     <img src="d6.png" alt = "Dice not found" class = "dice hidden">
+    <button class = "htp">HOW TO PLAY</button>
+    <div class = "howToPlay hidden">
+        <span class = "close">&times;</span>
+        <p class = "p"> 
+            Player1 starts the game by rolling the dice... <br><br>
+            The score on dice (except 1) will be added to current score of Active player (Player 1 initially).<br><br>
+            After rolling the dice there will be two options: <br><br>
+            <br>
+            <ul>
+                <li> <p class="p"> Either to hold the current score : Holding the score will add the current 
+                    score to total score of active player and pass the dice to other player.</p></li>
+                    <br>
+                <li> <p class="p"> Roll the dice again : If dice score is not 1, then the active player has choice of 
+                    rolling the dice again and current dice score will be added to current score. </p> </li>
+            </ul>
+            <br>
+            <p class="p"> <b><i>If Dice shows 1: </i></b> Current score of active player becomes zero and dice is 
+                passed on to other player.</p>
+            <br>
+            <br>
+            <p class="p"> <b><i>PLAYER WHO REACHES THE TOTAL SCORE OF 100 FIRST, WINS THE GAME...!!! </i></b></p>
+        </p>
+        <button class="okay">OKAY!</button>
+    </div>
+    <div class = "overlay hidden"></div>
 </body>
 <script src = "script.js"></script>
 </html>

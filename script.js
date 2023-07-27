@@ -10,6 +10,11 @@ const score = [0, 0];
 let currPlayer = 0, currScore = 0;
 let playing = true;
 
+const closehtp = function () {
+    document.querySelector('.howToPlay').classList.toggle('hidden');
+    document.querySelector('.overlay').classList.toggle('hidden');
+};
+
 const init = function () {
     currPlayer = 0, currScore = 0;
     playing = true;
@@ -107,3 +112,15 @@ document.querySelector('.hold').addEventListener('click', function () {
 
 //Resetting the game
 document.querySelector('.newGame').addEventListener('click', init);
+
+// How to play
+document.querySelector('.htp').addEventListener('click', closehtp);
+
+// Close Button
+document.querySelector('.close').addEventListener('click', closehtp);
+
+// Okay Button
+document.querySelector('.okay').addEventListener('click', closehtp);
+
+//overlay close
+document.querySelector('.overlay').addEventListener('click', closehtp);
